@@ -1,0 +1,17 @@
+1.Write a blog on difference between HTTP1 and HTTP2;
+
+HTTP-1
+    1.  It loads resources one after the other ,so if one resource cannot be loaded, it blocks all the other resources behind it.
+    2.  It loads single request for every TCP connection.
+      
+HTTP-2
+     1. Its able to use a single TCP connection to send multiple stream of data at once .so that no one resource and also any others resource.
+     2. HTTP2, developers have hands on detailed control over prioritizition.
+     3. This allow them to macsimize persived and actual page load speed to a degree that was not possible in HTTP1.
+     
+   2.  Write a blog about objects and its internal representation in Javascript;
+  
+  Objects;
+        1. An object,is a reference data type Data type and forms the building blocks for modern JAVAscript.
+        2. It more complex and each object may contain anycombination of primitive datatypes.
+        3. a property of an object can be explained as a variable that is attached to the object.Object are some times called associative arrays.
